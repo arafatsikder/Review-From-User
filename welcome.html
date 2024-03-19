@@ -1,25 +1,18 @@
-
-var setRating;
-
-function setRating(num){
-    setRating = num;
-    // console.log(num);
-    // return num;
-    
-}
-
-
-
-function submit(){
-    const rating = setRating;
-    const oldDiv = document.getElementById('main');
-    oldDiv.innerHTML = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
     <div class="main">
         <div class="welcome-img">
             <img src="images/illustration-thank-you.svg" alt="" height="100px" width="150px">
         </div>
         <div id="star-number">
-            You Selected ${rating} out of 5
+            You Selected 4 out of 5
         </div>
         <div class="thanks-text">
             <div>
@@ -32,7 +25,7 @@ function submit(){
             </div>
         </div>
     </div>
-    `
-    
-    
-}
+
+    <script src="script.js"></script>
+</body>
+</html>
