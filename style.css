@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    font: optional;
+}
+
+.main{
+    background-color: #202830;
+    color:white;
+    height: 350px;
+    width: 350px;
+    border:1px solid black;
+    border-radius: 25px;
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    
+}
+
+
+.star{
+    border: 1px solid rgba(114, 113, 113, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(114, 113, 113, 0.5)
+    
+}
+
+.main p{
+    color:rgb(175, 175, 175);
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.num-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.rvw-btn{
+    /* padding:20px; */
+    height:50px;
+    width:50px;
+    background-color: rgba(114, 113, 113, 0.5);
+    color:rgb(207, 207, 207);
+    border:1px solid rgba(114, 113, 113, 0.5);
+    border-radius: 50%;
+}
+.rvw-btn:hover{
+    color:white;
+    background-color: rgb(249, 126, 19);
+}
+
+.submit-btn{
+    text-align: center;
+    padding: 10px;
+    width:100%;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: rgb(249, 126, 19);
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.submit-btn:hover{
+    background-color:white;
+    color: rgb(249, 126, 19);
+}
