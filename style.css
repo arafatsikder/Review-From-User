@@ -40,7 +40,7 @@ body{
     margin-top: 30px;
 }
 
-.rvw-btn:active{
+.rvw-btn:focus{
     color:rgb(255, 255, 255);
     background-color: rgb(249, 126, 19);
 }
