@@ -10,7 +10,11 @@ function setRating(num){
     
 }
 
+// const button = document.getElementById(setRating)
 
+// button.addEventListener('click', ()=>{
+// button.style.color = 'red';
+// })
 
 
 
