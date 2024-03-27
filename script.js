@@ -1,25 +1,25 @@
 
-var setRating;
+var userRating;
 
 
 
 function setRating(num){
-    setRating = num;
-    // console.log(num);
-    // return num;
+    userRating = num;
+    
     
 }
 
-// const button = document.getElementById(setRating)
+const button = document.getElementById(setRating)
 
-// button.addEventListener('click', ()=>{
-// button.style.color = 'red';
-// })
+button.addEventListener('click', ()=>{
+const allButton = document.getElementsByClassName('rvw-btn');
+allButton.disable = true;
+})
 
 
 
 function submit(){
-    const rating = setRating;
+    const rating = userRating;
     if(rating>0){
         const oldDiv = document.getElementById('main');
     oldDiv.innerHTML = `
